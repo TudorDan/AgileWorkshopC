@@ -17,7 +17,7 @@ def choose_operation():
         display.print_message("Update", True)
     elif option == '4':
         display.print_message("Delete", True)
-    elif option == '0':
+    elif option == '5':
         return False
     else:
         raise KeyError("There is no such option.")
