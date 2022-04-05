@@ -11,7 +11,7 @@ def get_table_from_file(file_name):
             return [element.replace("\n", "").split(";") for element in lines]
     except IOError as err:
         print(err)
-        return []
+        return ["you are the best!!"]
 
 
 def write_table_to_file(file_name, table):
@@ -25,3 +25,4 @@ def write_table_to_file(file_name, table):
         for record in table:
             row = ';'.join(record)
             file.write(row + "\n")
+        
