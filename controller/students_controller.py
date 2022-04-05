@@ -25,9 +25,9 @@ def choose_operation():
 
 
 def handle_submenu():
-    options = ["Exit submenu",
-               "List students",
-               "Add a new student",
+    options = ["Exit Submenu",
+               "List Students",
+               "Add a New Student",
                "Update student",
                "Delete student"]
     display.print_menu("Student Classes Submenu", options)
