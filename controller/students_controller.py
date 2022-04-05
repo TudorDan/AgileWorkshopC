@@ -7,6 +7,8 @@ def get_all_students():
     display.print_table(students, "Students List:")
 
 
+# new comment by horatiu
+
 def choose_operation():
     option = display.get_inputs(["Please enter a number: "], "")[0]
     if option == '1':
